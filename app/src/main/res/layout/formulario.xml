@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Título -->
         <TextView
             android:id="@+id/txtTitulo"
             android:layout_width="wrap_content"
@@ -20,7 +19,6 @@
             android:layout_gravity="center_horizontal"
             android:paddingBottom="20dp" />
 
-        <!-- Campo de texto: Nombre -->
         <EditText
             android:id="@+id/edtNombre"
             android:layout_width="match_parent"
@@ -29,7 +27,6 @@
             android:inputType="textPersonName"
             android:padding="10dp" />
 
-        <!-- Campo de texto: Correo -->
         <EditText
             android:id="@+id/edtCorreo"
             android:layout_width="match_parent"
@@ -55,5 +52,38 @@
             android:text="Enviar"
             android:layout_marginTop="20dp" />
 
+        <!-- Botón de Actualizar -->
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:layout_marginTop="10dp" />
+
+        <!-- Botón de Buscar -->
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:layout_marginTop="10dp" />
+
+        <!-- Botón de Eliminar -->
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:layout_marginTop="10dp" />
+
+        <!-- Botón de Listar -->
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listar"
+            android:layout_marginTop="10dp" />
+
     </LinearLayout>
 </ScrollView>
+
