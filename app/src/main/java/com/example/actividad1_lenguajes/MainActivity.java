@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         txtid = findViewById(R.id.txtid);
         txtnombre = findViewById(R.id.txtnombre);
         txtapellido = findViewById(R.id.txtapellido);
-    }
+    } //g
 
     public void listar(View vista) {
         Intent listar = new Intent(this, Listado.class);
