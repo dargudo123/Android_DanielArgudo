@@ -2,6 +2,7 @@ package com.example.actividad1_lenguajes;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.content.Context;
 
 public class FeedReaderDbHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "Ejemplo.db";
