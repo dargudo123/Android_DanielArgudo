@@ -7,17 +7,17 @@ public final class FeedReaderContract {
     private FeedReaderContract() {}
 
     public static class FeedEntry implements BaseColumns {
-        public static final String TABLE_NAME = "persona";
-        public static final String COLUMN_NAME_NOMBRE = "nombre";
-        public static final String COLUMN_NAME_APELLIDO = "apellido";
+        public static final String nametable = "persona";
+        public static final String column1 = "nombre";
+        public static final String column2 = "apellido";
     }
 
     public static final String SQL_CREATE_ENTRIES =
-            "CREATE TABLE " + FeedEntry.TABLE_NAME + " (" +
+            "CREATE TABLE " + FeedEntry.nametable + " (" +
                     FeedEntry._ID + " INTEGER PRIMARY KEY," +
-                    FeedEntry.COLUMN_NAME_NOMBRE + " TEXT," +
-                    FeedEntry.COLUMN_NAME_APELLIDO + " TEXT)";
+                    FeedEntry.column1 + " TEXT," +
+                    FeedEntry.column2 + " TEXT)";
 
     public static final String SQL_DELETE_ENTRIES =
-            "DROP TABLE IF EXISTS " + FeedEntry.TABLE_NAME;
+            "DROP TABLE IF EXISTS " + FeedEntry.nametable;
 }
